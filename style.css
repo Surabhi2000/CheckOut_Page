@@ -204,4 +204,8 @@
     .box2 {
         width: 100%;
     }
+
+    .checkboxs{
+        margin: 300px 20px 0px 20px;
+    }
 }
