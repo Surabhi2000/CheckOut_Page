@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap');
 
+.element {
+    @include float-left;
+}
+
 * {
     font-family: 'Barlow', sans-serif;
 }
@@ -19,6 +23,22 @@
     line-height: 43px;
     letter-spacing: 0em;
     text-align: left;
+    color: #F37920;
+}
+
+.orange1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 40px;
+    color: #F37920;
+}
+
+.orange2{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 40px;
     color: #F37920;
 }
 
@@ -47,6 +67,23 @@
     color: #0A174C;
 }
 
+.red {
+    color: #B80000;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 40px;
+    text-decoration-line: line-through;
+}
+
+.green {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 40px;
+    color: #159600;
+}
+
 .grey {
     font-size: 24px;
     font-style: normal;
@@ -60,6 +97,7 @@
 .grey-bg {
     background-color: #E4E4E4;
     border-radius: 10px;
+    padding: 0 60px;
 }
 
 .float-left {
@@ -78,11 +116,35 @@
     color: #102048;
 }
 
+.side-text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 40px;
+    color: #263238;
+}
+
+.side-subtext{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+    color: #263238;
+}
+
+.sidetext{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 40px;
+    color: #263238;
+}
+
 .quote {
     background-image: url(/images/qoute.png);
     background-repeat: no-repeat;
     background-size: 5em;
-    margin: 20px 10px 50px 10px;
+    margin: 30px 10px 50px 10px;
 }
 
 .quote-p {
@@ -104,7 +166,7 @@
 }
 
 .st-login {
-    margin-top: -160px;
+    margin-top: -450px;
 }
 
 .box2 {
@@ -171,6 +233,7 @@
     font-size: 18px;
     line-height: 22px;
     color: #313131;
+    padding: 0 20px;
 }
 
 .orange-check {
@@ -196,6 +259,12 @@
     line-height: 40px;
 }
 
+.btn-orange:hover {
+    transform: translateY(10%);
+    background: #f3893e;
+    color: #fff;
+}
+
 @media (max-width: 400px) {
     .st-login {
         margin-top: -50px;
@@ -205,7 +274,11 @@
         width: 100%;
     }
 
-    .checkboxs{
+    .grey-bg{
+        padding: 0 0px;
+    }
+
+    .checkboxs {
         margin: 300px 20px 0px 20px;
     }
 }
