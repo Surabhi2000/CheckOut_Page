@@ -48,29 +48,66 @@
         <div class="heading">
             <h2 class="orange">Order Summary</h2>
             <p class="red"> *Required </p>
+            <h3 class="orange">Quiz Takers … THIS IS FOR YOU ONLY!</h3>
         </div>
         <div class="row my-5">
             <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
                 <div class="box">
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <h4 class="orange1">Select the plan you want.</h4>
+                    <div class="row my-5">
+                        <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
                             <img src="/images/Rectangle.png" class="img-thumbnail">
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                            <h4 class="speak_fluent">Speak Fluent</h4>
-                            <p class="grey">( Beginner )</p>
-                            <p class="grey">$ 17.00 /Month</p>
+                            <h4 class="speak_fluent">Full Access to Courses</h4>
+                            <p class="red">$ 12.00/Month</p>
+                            <p class="green">$ 17.00 /Month</p>
+                        </div>
+                        <div class="col-lg-1 col-md-1 col-sm-12 col-xs-6 my-4 float-right">
+                            <input type="radio" name="full_access" value="full_access" class="radio" />
                         </div>
                     </div>
+
+                    <div class="row my-5">
+                        <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                            <img src="/images/Rectangle.png" class="img-thumbnail">
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <h4 class="speak_fluent">1 Year Membership</h4>
+                            <p class="red">$ 130.00/Year</p>
+                            <p class="green">$ 96.00 /Year</p>
+                        </div>
+                        <div class="col-lg-1 col-md-1 col-sm-12 col-xs-6 my-4 float-right">
+                            <input type="radio" name="full_access" value="full_access" class="radio" />
+                        </div>
+                    </div>
+
                     <div class="grey-bg">
                         <p>
                             <span class="float-left blue">Billed Total (USD)</span>
                             <span class="float-right blue">$ 17.00</span>
                         </p>
                     </div>
+
                 </div>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 my-3">
+                <div>
+                    <h3 class="side-text">With this <span class="orange2">LIMITED TIME</span> offer you will have full
+                        access to:</h3>
+                </div>
+                <div>
+                    <span class="side-subtext">
+                        Have <span class="orange2">full access</span> to our library of resources <span class="orange1">PLUS: </span><br>
+                        <ul class="sidetext">
+                            <li>Access to courses</li>
+                            <li>Create unlimited storybooks</li>
+                            <li>Earn digital badges and course stamps</li>
+                            <li>Download course certificates</li>
+                            <li>Get personalized feedback on your digital stories from your personal coach</li>
+                        </ul>
+                    </span>
+                </div>
                 <div class="quote">
                     <p class="quote-p">
                         Since I joined to the Pocket Passport, I've got more confidence to talk to anyone in the world.
@@ -143,32 +180,35 @@
         </div>
         <div class="checkboxs">
             <form method="POST" action="">
-                <div class="form-check form-check">
+                <div class="form-check form-check my-5">
                     <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
                     <label class="form-check-label check-text" for="inlineCheckbox1">
-                        Yes! I want weekly English PDF to get emailed to me.
-                        <p class="grey-check">
+                        <b>Yes! I want weekly English PDF to get emailed to me.</b>
+                        <p class="grey-check my-3">
                             Every week you will recieve our latest PDF Lesson directly
                             in your inbox.
                             <b>$ 4.00 </b> will be added to your monthly bill.
                         </p>
                     </label>
                 </div>
-                <div class="form-check form-check">
-                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                    <label class="form-check-label check-text" for="inlineCheckbox2">
-                        Yes! I want personalized assessment.
-                        <p class="grey-check">
-                            Every week you will recieve our latest PDF Lesson directly
-                            in your inbox.Lorem Ispum Lorem Ispum.
-                            <b>$ 40.00 + TAX (One time Payement) </b>
+                <div class="form-check form-check my-5">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                    <label class="form-check-label check-text" for="inlineCheckbox1">
+                        <b>Yes! I want an assessment and coaching session with the Founder & CEO of Pocket Passport.</b>
+                        <p class="grey-check my-3">
+                            You will interact in a series of role-plays and be assessed on your overall speaking,
+                            vocabulary, listening, grammar, body language and cross-cultural awareness. You will receive
+                            a detailed report explaining what you are
+                            good at, areas for improvement and how to improve. This is a one-hour session.
+                            <b>$ 69.00 </b> + TAX (One time Payement)
                         </p>
                     </label>
                 </div>
-                <div class="form-check form-check">
+                <div class="form-check form-check my-5">
                     <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
                     <label class="form-check-label check-text" for="inlineCheckbox3">
-                        I agree to Pocket Passport’s <span class="orange-check">Terms of Use</span> & <span class="orange-check">Privacy Policy</span>. 
+                        I agree to Pocket Passport’s <span class="orange-check">Terms of Use</span> & <span
+                            class="orange-check">Privacy Policy</span>.
                     </label>
                 </div>
                 <button class="btn btn-orange">Buy Now</button>
