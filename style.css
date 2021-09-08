@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap');
 
-.element {
-    @include float-left;
-}
-
 * {
     font-family: 'Barlow', sans-serif;
 }
@@ -166,7 +162,7 @@
 }
 
 .st-login {
-    margin-top: -450px;
+    margin-top: -50px;
 }
 
 .box2 {
