@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CheckOut</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/lg.png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+
+<body>
+    <div class="appbar">
+        <!--Navbar section begins-->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="./images/logo.png" class="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="container">
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <div>
+                        <ul class="navbar-nav ml-auto navbar-right">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Home </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Courses</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="collapse navbar-collapse" id="navbarText" style="justify-content: flex-end;">
+                    <div>
+                        <ul class="navbar-nav ml-auto navbar-right">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <img src="./images/akar-icons_facebook-fill.png" class="logo" height=28 width=28>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <img src="./images/akar-icons_twitter-fill.png" class="logo" height=28 width=28>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <img src="./images/ant-design_instagram-filled.png" class="logo" height=28 width=28>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <img src="./images/akar-icons_youtube-fill.png" class="logo" height=28 width=28>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!--Navbar section ends-->
+
+    <!-- Order summary section begins -->
+    <div class="container my-5">
+        <div class="heading">
+            <h2 class="orange">Order Summary</h2>
+            <p class="red"> *Required </p>
+        </div>
+        <div class="row my-5">
+            <div class="col-lg-7 col-md-9 col-sm-12 col-xs-12" style="padding: 10px 5px">
+                <div class="box">
+                    <h4 class="orange1">Select the plan you want.</h4>
+                    <div class="row my-5">
+                        <div class="col-lg-4 col-md-5 col-sm-12 col-xs-12">
+                            <img src="/images/Group 121.png" class="img-thumbnail">
+                        </div>
+                        <div class="col-lg-7 col-md-6 col-sm-12 col-xs-12">
+                            <h4 class="speak_fluent">Pocket Pro: Library ONLY!</h4>
+                            <p class="red2">$ 15.00/Month</p>
+                            <p class="green">$ 7.00 /Month</p>
+                        </div>
+                        <div class="col-lg-1 col-md-1 col-sm-12 col-xs-6 my-4 float-right">
+                            <input type="radio" name="full_access" value="full_access" class="radio" />
+                        </div>
+                    </div>
+
+                    <div class="row my-5">
+                        <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                            <img src="/images/Group 122.png" class="img-thumbnail">
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <h4 class="speak_fluent">Speak Fluent Beginner</h4>
+                            <p class="red2">$ 39.00/Year</p>
+                            <p class="green">$ 17.00 /Year</p>
+                        </div>
+                        <div class="col-lg-1 col-md-1 col-sm-12 col-xs-6 my-4 float-right">
+                            <input type="radio" name="full_access" value="full_access" class="radio" />
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-3 col-sm-12 col-xs-12 my-3">
+                <div>
+                    <div>
+                        <h3 class="side-text">When you join as a <span class="orange2">PRO </span>you can:<br />
+                            full
+                            access to:</h3>
+                    </div>
+                    <span class="side-subtext">
+                        Have <span class="orange2">full access</span> to our library of resources <br />
+                        <ul class="sidetext">
+                            <li>Digital flashcards</li>
+                            <li>MP3s</li>
+                            <li>Animated Videos</li>
+                            <li>Full Leasson Plans</li>
+                            <li>PDF Downloads</li>
+                        </ul>
+                    </span>
+                    <div>
+                        <h3 class="side-text">When you join as a <span class="orange2">Speak Fluent </span>you: <br />
+                            Get everything included in PRO
+                            <span class="orange2">Plus ...</span><br />
+                           </h3>
+                    </div>
+                    <span class="side-subtext">
+                        <ul class="sidetext">
+                            <li>Access to courses</li>
+                            <li>Create unlimited storybooks</li>
+                            <li>Earn digital badges and course stamps</li>
+                            <li>Download course certificates</li>
+                            <li>Get personalized feedback on your digital stories from your personal coach</li>
+                        </ul>
+                    </span>
+                </div>
+                <div class="quote">
+                    <p class="quote-p">
+                        “Since I started using Pocket
+                        Passport, I feel confident
+                        making small talk. Thank you
+                        for making it so affordable!”
+                    </p>
+                    <p class="quote-orange">-Anna,Brazil</p>
+                </div>
+                <div class="quote">
+                    <p class="quote-p">
+                        “I signed up for Pocket Passport because I needed to start using English at work.
+                        My speaking, storytelling, meeting, and presentation skills are much better. There are a lot fun
+                        and useful lessons and materials.
+                    </p>
+                    <p class="quote-orange">-Pedro , Spain</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Order summary section ends -->
+
+    <!-- Student Login Details section begins -->
+    <!-- <div class="container">
+        <div class="heading">
+            <h2 class="orange">Student Login Details</h2>
+            <p class="grey"> Create an account to access materials related to your purchase
+            </p>
+        </div>
+        <div class="box2">
+            <form method="POST" action="">
+                <label for="email" class="input-f">Email Address<span class="red">*</span></label>
+                <input type="email" id="email" class="form-control input-field" name="user_email"><br>
+                <label for="name" class="input-f">Name<span class="red">*</span></label>
+                <input type="text" id="name" class="form-control input-field" name="user_name"><br>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                    <label class="form-check-label check" for="defaultCheck1">
+                        I agree to recieve promotional and instructional Emails.
+                    </label>
+                </div>
+            </form>
+        </div>
+    </div> -->
+    <div class="container" style="width:100%; padding: 10px; margin:50px auto; box-sizing: border-box; background-color: #ededed;">
+        <div class="container">
+            <h6 style="font-weight:600">Student Login Details</h6>
+            <span>create an account to access materials related to your purchase</span>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <form>
+                    <div class="form-group">
+                      <label for="exampleInputEmail">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="name@example.com">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputName">Name</label>
+                      <input type="text" class="form-control" id="exampleInputName" placeholder="John Doe">
+                    </div>
+                    <div class="form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">I agree to receive institutional and promotional emails.</label>
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+    </div>
+    <!-- Student Login Details section ends -->
+
+    <!-- Payment details section begins -->
+    <div class="container"
+        style="width:100%; padding: 10px; margin:50px auto; box-sizing: border-box; background-color: #ededed;">
+        <div class="container" style="">
+            <h6 style="font-weight:600">Payment Information</h6>
+            <i class="fa fa-lock" style="color: gray;"></i> <span>This is a secure 128-bit SSL encrypted payment</span>
+        </div>
+        <div class="card" style="max-width: 500px">
+            <div class="card-body">
+                <div class="container form-group" style="padding-left:40px">
+                    <div class="payment-type">
+                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1"
+                            checked style="margin-top:20px">
+                        <img class="form-check-label" for="gridRadios1" src="./images/PayPal-Logo 1.png" class="logo"
+                            height=60 />
+                    </div>
+                    <hr style="margin: 5px 0px" />
+                    <div class="payment-type">
+                        <div>
+                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1"
+                                value="option1" checked>
+                        </div>
+                        <div>
+                            <label class="form-check-label" for="gridRadios1">
+                                Credit Cards
+                            </label>
+                        </div>
+                    </div>
+                    <div>
+                        <form id="payment-creditcard">
+                            <div class="row form-group">
+                                <label for="nameoncard"><span class="red">*</span>Name on Card</label>
+                                <input type="text" class="form-control" id="nameoncard" aria-describedby="emailHelp"
+                                    placeholder="Emily J Smith">
+                            </div>
+                            <div class="row form-group">
+                                <label for="cardnumber"><span class="red">*</span>Card Number</label>
+                                <input type="password" class="form-control" id="cardnumber"
+                                    placeholder="1234 1234 1234 1234">
+                            </div>
+                            <div class="row form-group" style="margin-left: -30px">
+                                <div class="col-6">
+                                    <label for="nameoncard"><span class="red">*</span>Expiration Date</label>
+                                    <input type="text" class="form-control" id="expirationdte"
+                                        aria-describedby="expirationdte" placeholder="MM/YY">
+                                </div>
+                                <div class="col-6">
+                                    <label for="cvv"><span class="red">*</span>CVV Code</label>
+                                    <input type="password" class="form-control" id="cvv" aria-describedby="cvvHelp"
+                                        placeholder="CVV">
+                                </div>
+                            </div>
+                            <div class="row form-group" style="margin-left:10px">
+                                <input type="checkbox" class="form-check-input" id="saveCard">
+                                <label class="form-check-label" for="saveCard">Save my billing info for future
+                                    purchases</label>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="checkboxs">
+                <form method="POST" action="">
+                    <div class="form-check" style="background-color: yellow; padding: 10px; margin-top: 3rem">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1"
+                            style="margin-left: 10px;">
+                        <label class="form-check-label check-text" for="inlineCheckbox1">
+                            <b>&nbsp; &nbsp; &nbsp; &nbsp;Yes! I want weekly English PDF to get emailed to me.</b>
+                        </label>
+                    </div>
+                    <p class="grey-check my-3">
+                        Every week you will recieve our latest PDF Lesson directly
+                        in your inbox.
+                        <b>$ 4.00 </b> will be added to your monthly bill.
+                    </p>
+                    <div class="form-check" style="background-color: yellow; padding: 10px; margin-top: 3rem">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1"
+                            style="margin-left: 10px;">
+                        <label class="form-check-label check-text" for="inlineCheckbox1">
+                            <b> &nbsp; &nbsp; &nbsp; &nbsp;Yes! I want a personalized speaking assessment.
+                                Including detailed feedback of my strengths and weaknesses and tips on how to improve.
+                            </b>
+                        </label>
+                    </div>
+                    <p class="grey-check my-3">
+                        You will interact in a series of role-plays and be assessed on your overall speaking,
+                        vocabulary, listening, grammar, body language and cross-cultural awareness. You will receive a
+                        detailed report explaining what you are good at, areas for improvement and how to improve.
+                        <b>$ 40.00 </b> + TAX -One time Payment
+                    </p>
+                    <button class="btn btn-danger my-3">Buy Now $xxx</button>
+                    <div class="form-check my-5">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                        <label class="form-check-label check-text" for="inlineCheckbox3">
+                            I agree to Pocket Passport’s <span class="orange-check">Terms of Use</span> & <span
+                                class="orange-check">Privacy Policy</span>.
+                        </label>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Payment details section ends -->
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
