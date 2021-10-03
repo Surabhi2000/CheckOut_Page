@@ -8,10 +8,6 @@
     border: none;
 }
 
-.heading {
-    margin-left: 20px;
-}
-
 .orange {
     font-size: 36px;
     font-style: normal;
@@ -52,7 +48,8 @@
     border: 1px solid #676767;
     box-sizing: border-box;
     border-radius: 30px;
-    padding: 40px 30px 60px 30px;
+    height: 100%;
+    padding: 10px 5px 10px 30px;
 }
 
 .speak_fluent {
@@ -140,7 +137,6 @@
     background-image: url(/images/qoute.png);
     background-repeat: no-repeat;
     background-size: 5em;
-    margin: 30px 10px 50px 10px;
 }
 
 .quote-p {
@@ -161,17 +157,15 @@
     margin-left: 40px;
 }
 
-.st-login {
-    margin-top: -50px;
-}
-
 .box2 {
-    border: 1px solid #676767;
+    /* border: 1px solid #676767;
     box-sizing: border-box;
     width: 75%;
     border-radius: 30px;
     padding: 40px 30px 60px 30px;
-    float: left;
+    float: left; */
+    box-sizing: border-box; width: 75%; border-radius: 30px;  border: 1px solid #676767;
+    padding: 40px 30px;
 }
 
 .input-f {
@@ -200,15 +194,11 @@
 }
 
 .payment {
-    margin-top: 450px;
+    margin-top: 50px;
 }
 
 .pay {
     margin: 40px 0 10px 0;
-}
-
-.checkboxs {
-    margin: 300px 350px 20px 50px;
 }
 
 .check-text {
@@ -275,6 +265,23 @@
     }
 
     .checkboxs {
-        margin: 300px 20px 0px 20px;
+        
     }
+}
+
+
+.appbar {
+    display:block; 
+    width: 100%; 
+    border-bottom: 2px solid gray;
+    height: 12vh; 
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.nav-link{
+    color: #0A174C !important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;;
 }
