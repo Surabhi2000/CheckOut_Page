@@ -285,3 +285,7 @@
     font-size: 18px;
     line-height: 20px;;
 }
+
+.payment-type {
+    height: 60px;
+}
